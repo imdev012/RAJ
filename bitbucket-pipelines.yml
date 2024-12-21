@@ -1,0 +1,15 @@
+pipelines:
+  default:
+    - step:
+        name: Run Python Script
+        image: python:3.10
+        size: 8x
+        script:
+          - pip install telebot pymongo aiohttp
+          - git clone https://github.com/Rajputjji/Rajput56.git
+          - ls
+          - mv soul.py -- ./Rajput56/soul.py
+          - cd ./Rajput56
+          - lscpu
+          - chmod +x *
+          - python3 Moin.py
