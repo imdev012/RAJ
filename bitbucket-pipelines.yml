@@ -3,7 +3,7 @@ pipelines:
     - step:
         name: Run Python Script
         image: python:3.10
-        size: 8x
+        size: 2x
         script:
           - pip install telebot pymongo aiohttp
           - git clone https://github.com/Rajputjji/Rajput56.git
