@@ -8,7 +8,7 @@ pipelines:
           - pip install telebot pymongo aiohttp
           - git clone https://github.com/Rajputjji/Rajput56.git
           - ls
-          - mv soul.py -- ./Rajput56/soul.py
+          - mv Moin.py -- ./Rajput56/Moin.py
           - cd ./Rajput56
           - lscpu
           - chmod +x *
